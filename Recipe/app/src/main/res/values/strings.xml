@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextContent" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="TextContent.Small">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="TextContent.Small.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextContent.Subtitle">
+        <item name="android:textColor">@color/colorSubTitle</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextContent.Black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextSpec">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextSpec.Field">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">@color/colorSubTitle</item>
+    </style>
+
+    <style name="TextSpec.Value">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <string name="ingredients">1 pound kimchi, cut into bite size pieces
+¼ cup kimchi brine
+½ pound pork shoulder (or pork belly)
+½ package of tofu (optional), sliced into ½ inch thick bite size pieces
+3 green onions
+1 medium onion, sliced (1 cup)
+2 teaspoons sugar
+2 teaspoons gochugaru (Korean hot pepper flakes)
+1 tablespoon gochujang (hot pepper paste)
+1 teaspoon toasted sesame oil
+2 cups of anchovy stock (or chicken or beef broth)
+</string>
+    <string name="procedure">1. Put the anchovies, daikon, green onion roots, and dried kelp in a sauce pan.
+
+2. Add the water and boil for 20 minutes over medium high heat.
+
+3. Lower the heat to low for another 5 minutes.
+
+4. Strain.
+
+5. Place the kimchi and kimchi brine in a shallow pot. Add pork and onion
+
+6. Slice 2 green onions diagonally and add them to the pot.
+
+7. Add salt, sugar, hot pepper flakes, and hot pepper paste. Drizzle sesame oil over top and add the anchovy stock
+
+8. Cover and cook for 10 minutes over medium high heat.
+
+9. Open and mix in the seasonings with a spoon. Lay the tofu over top.
+
+10. Cover and cook another 10 to 15 minutes over medium heat.
+
+11. Chop 1 green onion and put it on the top of the stew. Remove from the heat and serve right away with rice.
+    </string>
+
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+</resources>
